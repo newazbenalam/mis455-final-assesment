@@ -13,8 +13,59 @@
 <body>
   <!-- Newaz Ben Alam | 2020789 -->
 <header>
+  <nav >
+    <a href="" onclick="window.location.reload()" class="nav-title">CookRecipe</a>
+    <div>
+      <a href="#" onclick="darkMode()" class="dark-mode">☾</a>
+      <a href="#"><img onclick="clearKey(), window.location.reload()" class="profile-img"
+          src="public/images/pngwing.com.png" alt="profile_image"></a>
+    </div>
+  </nav>
+  <br><br><br>
+  <h2 class="pt-5 px-lg-0 px-md-5">Express how you want to make your food!</h2>
 </header>
 
+  <section id="hero">
+    <div>
+      <input class="w-card-search" type="search" name="" id="searchid">
+      <input type="button" value="Search" class="search-btn" onclick="onSearch()">
+    </div>
+    <br><br>
+    <search-row>
+      <div>
+        <p id="middle-title"
+          style="margin-bottom: 15px; filter: drop-shadow(0px 0px 100px #929094bb); font-weight: 500;">Popular Search
+        </p>
+      </div>
+      <br>
+      <div class="flex-view-popular" id="result-view">
+
+      
+
+      </div>
+
+    </search-row>
+
+    <hero-row class="hidden-helper">
+
+  </section>
+  <footer id="contact">
+    <div>
+      <div>
+        <h2>Contact me</h2>
+        <a style="color: var(--text-color-2); font-weight:lighter; font-size:smaller; filter: opacity(85%)"
+          href="mailto:newazbenalam@gmail.com"><em>newazbenalam@gmail.com</em></a>
+      </div>
+      <div style="cursor: pointer; color: var(--text-color-2);">
+        <span>Linkedin</span>
+        <span>Facebook</span>
+        <a style="color: var(--text-color-2);" href="https://github.com/newazbenalam"> <span>GitHub</span></a>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>© 2024 All Rights Reserved.</p>
+    </div>
+  </footer>
 </body>
 
 </html>
