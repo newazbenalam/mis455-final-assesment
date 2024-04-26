@@ -391,6 +391,12 @@ hero-row {
   animation: btnanimation 10s ease-in-out infinite;
 }
 
+.popular-btn {
+  border: 0px solid rgba(88, 88, 88, 0);
+  color: #070707;
+  background-color: transparent;
+}
+
 .search-btn:hover {
   animation: btnanimation 2s ease-in-out infinite;
   background-color: #7183ec42;
